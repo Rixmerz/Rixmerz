@@ -6,4 +6,4 @@
 </a>
 </p>
 
-<sub>Drawn on my own [pixel canvas](https://pixel-canvas.juanpablo516.workers.dev), a Cloudflare Worker that renders the latest saved drawing on every visit.</sub>
+<sub>Click the canvas to draw on it, no password needed. Hit save and your drawing shows up here.</sub>
