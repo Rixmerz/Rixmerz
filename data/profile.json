@@ -1,0 +1,152 @@
+{
+  "login": "Rixmerz",
+  "name": "Rixmerz",
+  "role": "Building tools that make AI agents reliable",
+  "bio": "MCP servers, Claude Code plugins and development methods so AI agents debug, trace and ship with evidence instead of guesses. Also Rust, Linux on Ryoku (CachyOS) and teaching.",
+  "pills": [
+    "MCP",
+    "Claude Code",
+    "TypeScript",
+    "Python",
+    "Rust",
+    "Linux"
+  ],
+  "theme": "terminal",
+  "accent": "cyan",
+  "lang": "en",
+  "tiles": [
+    "repos",
+    "contributions",
+    "stars",
+    "prs"
+  ],
+  "languages_ignore": [
+    "HTML",
+    "CSS"
+  ],
+  "projects": [
+    {
+      "repo": "Rixmerz/livespec",
+      "title": "livespec",
+      "label": "CODE INTELLIGENCE · MCP",
+      "desc": "Local-first code intelligence for AI agents: call graph, impact analysis and two-way traceability between specs and code, searchable with FTS5.",
+      "stack": [
+        "Python",
+        "MCP",
+        "SQLite FTS5",
+        "uvx"
+      ],
+      "status": "Public beta · v0.33",
+      "kind": "prod"
+    },
+    {
+      "repo": "Rixmerz/flowtrace-debugger",
+      "title": "FlowTrace",
+      "label": "TRACING · 5 RUNTIMES",
+      "desc": "Multi-language call tracer that needs no code changes. Emits structured JSONL for every instrumented method, ready for AI-driven debugging.",
+      "stack": [
+        "Node.js",
+        "Python",
+        "Java",
+        "Go"
+      ],
+      "status": "Published on npm",
+      "kind": "prod"
+    },
+    {
+      "repo": "Rixmerz/RIXA",
+      "title": "RIXA",
+      "label": "DEBUGGING · MCP",
+      "desc": "Universal debugging platform exposed as an MCP server: lets AI clients drive real debuggers across 6+ languages, Electron apps and web frameworks.",
+      "stack": [
+        "TypeScript",
+        "MCP",
+        "Node.js",
+        "GitHub Actions"
+      ],
+      "status": "MIT · CI on every push",
+      "kind": "prod"
+    },
+    {
+      "repo": "Rixmerz/agentcockpit",
+      "title": "AgentCockpit",
+      "label": "DESKTOP · AGENT IDE",
+      "desc": "Desktop layer between you and your AI coding assistant: quality feedback after every edit, memory of past mistakes and enforced workflows.",
+      "stack": [
+        "Tauri v2",
+        "Rust",
+        "React 19",
+        "TypeScript"
+      ],
+      "status": "Desktop app · Tauri",
+      "kind": "proto"
+    }
+  ],
+  "toolkit": [
+    {
+      "label": "Languages",
+      "items": [
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "Rust",
+        "Go",
+        "C"
+      ]
+    },
+    {
+      "label": "Agents & MCP",
+      "items": [
+        "MCP servers",
+        "Claude Code plugins",
+        "Hooks",
+        "Playwright",
+        "CDP"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Fastify",
+        "Hono",
+        "FastAPI",
+        "Django"
+      ]
+    },
+    {
+      "label": "Data",
+      "items": [
+        "SQLite / FTS5",
+        "Tantivy",
+        "MongoDB",
+        "RAG"
+      ]
+    },
+    {
+      "label": "Desktop & OS",
+      "items": [
+        "Tauri v2",
+        "React 19",
+        "CachyOS · Ryoku",
+        "Hyprland",
+        "tmux"
+      ]
+    },
+    {
+      "label": "Methods",
+      "items": [
+        "TRACER",
+        "DTC",
+        "Flow-First",
+        "Context-First"
+      ]
+    }
+  ],
+  "portrait": "data/portrait-sheet.png",
+  "portrait_frames": "data/portrait-sheet.json",
+  "portrait_width": 250,
+  "credits": [
+    "Header pixel art: Yui Hirasawa (<i>K-On!</i>) by <a href=\"https://tenor.com/view/hal4822-yui-hirasawa-yui-guitar-k-on-pixel-gif-14331735206864296124\">Hal4822</a>."
+  ]
+}
